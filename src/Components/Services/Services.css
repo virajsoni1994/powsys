@@ -1,0 +1,28 @@
+.img-icon{
+    width: 60px;
+    height: 60px;
+}
+.service-title{
+    margin: 8px;
+    font-size: 1.9vw;
+    font-weight: 400;
+}
+
+.left-services{
+    width: 50%;
+    float: left;
+}
+
+.service-heading{
+    text-align: center;
+    padding: 2%;
+}
+
+.service {
+    margin: 8px;
+    padding: 15px;
+}
+
+.detailed-service{
+    padding: 5%;
+}

@@ -1,0 +1,96 @@
+.hero {
+  /* Sizing */
+  width: 100vw;
+  height: 100vh;
+  
+  /* Flexbox stuff */
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  
+  /* Text styles */
+  /* text-align: center; */
+  color: white;
+  
+  /* Background styles */
+  background-image: url('./../../images/Image_1.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.custom-nav{
+  min-height: calc(100vh - 82vh);
+}
+
+.hero-card{
+  width: 40%;
+  background-color: rgb(53, 62, 74);
+  opacity: 0.7;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  /* background-color: #fff; */
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: .25rem;
+  float: left;
+  top: -10%;
+  left: 6%;
+  height: 45%;
+}
+
+.custom-hr{
+  border-top: 2px solid rgba(0,0,0,.1);
+}
+
+.card{
+    width: 40%;
+    float: left;
+    display: inline-block;
+    margin: 4%;
+  }
+  
+  .left-services{
+    float: left;
+    width: 50%;
+  }
+  
+  .right-services{
+    float: left;
+    width: 50%;
+  }
+  
+  .all-services{
+    width: 90%;
+    margin: 3% auto;
+  }
+
+  .service-li{
+    padding: 3%;
+    list-style-type: none;
+    font-size: 2vw;
+    font-weight: 400;
+  }
+  
+  .service-heading{
+    text-align: center;
+    font-weight: 400;
+  }
+
+  .img-icon{
+    width: 40px;
+    height: 40px;
+  }
+
+  .service{
+    margin: 8px;
+    font-weight: 350;
+  }
+
+  .Landing{
+    top: 150px;
+  }
