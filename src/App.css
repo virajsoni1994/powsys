@@ -33,3 +33,6 @@
 } */
 
 
+.App {
+  overflow-x: hidden;
+}

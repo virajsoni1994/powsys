@@ -1,18 +1,20 @@
+.custom-nav{
+  /* min-height: calc(100vh - 82vh); */
+  height: 120px;
+  background-color: rgba(0,0,0,.15) !important;
+}
+
 .hero {
   /* Sizing */
   width: 100vw;
   height: 100vh;
-  
+  margin-left: 0 !important;
+  margin-right: 0 !important;
   /* Flexbox stuff */
   display: flex;
-  /* justify-content: center; */
   align-items: center;
-  
   /* Text styles */
-  /* text-align: center; */
   color: white;
-  
-  /* Background styles */
   background-image: url('./../../images/Image_1.jpg');
   background-size: cover;
   background-position: center center;
@@ -20,12 +22,7 @@
   background-attachment: fixed;
 }
 
-.custom-nav{
-  min-height: calc(100vh - 82vh);
-}
-
 .hero-card{
-  width: 40%;
   background-color: rgb(53, 62, 74);
   opacity: 0.7;
   position: relative;
@@ -33,14 +30,11 @@
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  /* background-color: #fff; */
   background-clip: border-box;
   border: 1px solid rgba(0,0,0,.125);
   border-radius: .25rem;
   float: left;
-  top: -10%;
-  left: 6%;
-  height: 45%;
+  margin: 0% 2% 9% 2%;
 }
 
 .custom-hr{
@@ -53,6 +47,9 @@
     display: inline-block;
     margin: 4%;
   }
+.card-text{
+  text-align: justify;
+}
   
   .left-services{
     float: left;
@@ -72,7 +69,7 @@
   .service-li{
     padding: 3%;
     list-style-type: none;
-    font-size: 2vw;
+    /* font-size: 2vw; */
     font-weight: 400;
   }
   
@@ -86,11 +83,36 @@
     height: 40px;
   }
 
-  .service{
-    margin: 8px;
-    font-weight: 350;
+  .brand-icon{
+    width: 170px;
+    height: 115px;
+  }
+
+  .service {
+    margin: 18px 15px;
+    font-weight: 600;
+    position: absolute;
   }
 
   .Landing{
     top: 150px;
+
   }
+
+  .Landing-Container{
+    background-color: #f8f9fa !important;
+    
+  }
+
+  .footer{
+    height: 100px !important;
+    background-color: rgba(0,0,0,.15) !important;
+  }
+
+
+  @media (min-width: 576px) and (max-width: 768px) { 
+    .all-services{
+      width: 60%;
+      margin: 3% auto;
+    }
+   }

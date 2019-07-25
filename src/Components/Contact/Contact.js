@@ -1,9 +1,8 @@
 import React from "react";
 import "./Contact.css";
-import { Link } from "react-router-dom";
 
 function Contact() {
-  return <div>Contact Us</div>;
+  return <div className="contact-container">Contact Us</div>;
 }
 
 export default Contact;
